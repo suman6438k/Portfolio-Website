@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: skyblue;
+  margin: 16px auto 40px auto;
+}
+
+.theme-shadow {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card {
+  transition: transform 0.5s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1 .h2 .h3 .h4 .h5 .h6 {
+  font-weight: 600;
+  color: black;
+}
+
+/* navbar */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: white;
+}
+
+/* BTN */
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 24px;
+}
+
+.btn-brand {
+  background-color: skyblue;
+  color: white;
+}
+
+.btn-brand:hover {
+  background-color: rgb(132, 154, 250);
+  color: white;
+}
+
+.nav-link:hover {
+  color: skyblue;
+}
+
+/* navbar */
+
+.logo {
+  padding-right: 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.logo span {
+  color: skyblue;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
